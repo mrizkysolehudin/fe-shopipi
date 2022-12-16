@@ -5,12 +5,12 @@ import { Link } from "react-router-dom";
 const SNavbar = () => {
 	return (
 		<nav className="nav">
-			<div className="nav-logo d-flex">
+			<Link to="/" className="nav-logo d-flex">
 				<ShoppingCartIcon className="shop-icon" />
 				<p>
 					Shopi <span>pi</span>
 				</p>
-			</div>
+			</Link>
 
 			<div className="search-input">
 				<input type="text" placeholder="Enter Product Name ..." />

@@ -70,6 +70,10 @@
   max-height: 45px;
 }
 
+.btn-search:hover {
+  background-color: rgba(218, 141, 0, 0.981);
+}
+
 .search-icon {
   width: 20px;
   height: 20px;
@@ -94,6 +98,10 @@
   height: fit-content;
 }
 
+.cart:hover {
+  background-color: rgba(218, 141, 0, 0.981);
+}
+
 .btn-login {
   color: black;
   text-decoration: none;
@@ -102,4 +110,8 @@
   padding: 8px 28px;
   border-radius: 4px;
   margin-top: -18px;
+}
+
+.btn-login:hover {
+  background-color: rgba(218, 141, 0, 0.981);
 }

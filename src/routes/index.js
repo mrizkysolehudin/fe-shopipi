@@ -4,6 +4,8 @@ import { Route, Routes } from "react-router-dom";
 import SNavbar from "../components/Navigation/Navbar/Navbar";
 import PublicRoute from "../components/Navigation/PublicRoute/PublicRoute";
 import Home from "../pages/Public/Home/Home";
+import "../App.css";
+import Register from "pages/Public/Register/Register";
 
 const AppRoutes = () => {
 	return (
@@ -18,6 +20,7 @@ const AppRoutes = () => {
 				}>
 				<Route path="" element={<Home />} />
 				<Route path="/login" element={<Login />} />
+				<Route path="/register" element={<Register />} />
 			</Route>
 		</Routes>
 	);

@@ -6,7 +6,7 @@ import "./Login.css";
 const Login = () => {
 	return (
 		<div className="mt-5 pt-5">
-			<div className="container">
+			<div className="container-log">
 				<Form>
 					<h1>Login</h1>
 
@@ -21,7 +21,7 @@ const Login = () => {
 					</Form.Group>
 
 					<div className="d-flex justify-content-between mb-3 px-1 link">
-						<Link to="">Sign Up?</Link>
+						<Link to="/register">Register?</Link>
 						<Link to="">Forgot Password?</Link>
 					</div>
 
