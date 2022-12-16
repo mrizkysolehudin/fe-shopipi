@@ -22,7 +22,7 @@ const Login = () => {
 
 					<div className="d-flex justify-content-between mb-3 px-1 link">
 						<Link to="/register">Register?</Link>
-						<Link to="">Forgot Password?</Link>
+						<Link to="/password/forgot">Forgot Password?</Link>
 					</div>
 
 					<button className="btn-login-log" type="submit">
