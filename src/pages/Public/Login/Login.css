@@ -1,0 +1,47 @@
+.container {
+  max-width: 450px;
+  margin-top: 80px;
+  padding: 35px 45px 45px;
+  box-shadow: 10px 10px 25px 6px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04); 
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.link {
+  margin-top: -10px;
+  font-size: 14px;
+  
+}
+
+
+
+.link a {
+  color: gray;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.link a:hover {
+  color: rgb(111, 108, 108);
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.btn-login-log {
+  background-color: orange;
+  border: none;
+  width: 100%;
+  font-weight: 600;
+  padding: 15px 0;
+  font-size: 1.15rem;
+  color: white;
+  border-radius: 4px;
+}
+
+.btn-login-log:hover {
+  background-color: rgba(218, 141, 0, 0.981);
+}
+
