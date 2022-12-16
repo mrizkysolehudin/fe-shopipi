@@ -1,3 +1,4 @@
+import MetaData from "components/MetaData/MetaData";
 import React from "react";
 import { Form } from "react-bootstrap";
 import "./ForgotPassword.css";
@@ -5,6 +6,7 @@ import "./ForgotPassword.css";
 const ForgotPassword = () => {
 	return (
 		<div className="pt-5 mt-5">
+			<MetaData title="Forgot Password" />
 			<div className="container-forgot">
 				<h1>Forgot Password</h1>
 

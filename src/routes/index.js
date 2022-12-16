@@ -8,6 +8,7 @@ import "../App.css";
 import Register from "pages/Public/Register/Register";
 import Footer from "components/Footer/Footer";
 import ForgotPassword from "pages/Public/ForgotPassword/ForgotPassword";
+import Cart from "pages/Public/Cart/Cart";
 
 const AppRoutes = () => {
 	return (
@@ -25,6 +26,7 @@ const AppRoutes = () => {
 				<Route path="/login" element={<Login />} />
 				<Route path="/register" element={<Register />} />
 				<Route path="/password/forgot" element={<ForgotPassword />} />
+				<Route path="/cart" element={<Cart />} />
 			</Route>
 		</Routes>
 	);

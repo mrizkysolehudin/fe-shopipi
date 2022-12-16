@@ -1,3 +1,4 @@
+import MetaData from "components/MetaData/MetaData";
 import React from "react";
 import Form from "react-bootstrap/Form";
 import { Link } from "react-router-dom";
@@ -6,6 +7,7 @@ import "./Login.css";
 const Login = () => {
 	return (
 		<div className="mt-5 pt-5">
+			<MetaData title="Login" />
 			<div className="container-log">
 				<Form>
 					<h1>Login</h1>

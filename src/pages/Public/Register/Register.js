@@ -1,6 +1,6 @@
 import { UserCircleIcon } from "@heroicons/react/solid";
+import MetaData from "components/MetaData/MetaData";
 import React from "react";
-import { Button, InputGroup } from "react-bootstrap";
 import Form from "react-bootstrap/Form";
 import { Link } from "react-router-dom";
 import "./Register.css";
@@ -8,6 +8,7 @@ import "./Register.css";
 const Register = () => {
 	return (
 		<div className="mt-5 pt-5">
+			<MetaData title="Register" />
 			<div className="container-reg">
 				<h1>Register</h1>
 

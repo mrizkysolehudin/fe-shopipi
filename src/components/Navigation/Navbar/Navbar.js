@@ -21,7 +21,7 @@ const SNavbar = () => {
 			</div>
 
 			<div className="d-flex align-items-center">
-				<Link to={1} className="d-flex cart-wrapper">
+				<Link to="/cart" className="d-flex cart-wrapper">
 					<p className="cart-white">Cart</p>
 					<p className="cart">0</p>
 				</Link>
