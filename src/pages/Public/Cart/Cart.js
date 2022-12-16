@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 const Cart = () => {
 	return (
-		<div className="pt-5 mt-5">
+		<div>
 			<MetaData title="Cart" />
 
 			<Container className="mt-4 page-cart">

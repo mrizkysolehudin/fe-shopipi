@@ -9,6 +9,7 @@ import Register from "pages/Public/Register/Register";
 import Footer from "components/Footer/Footer";
 import ForgotPassword from "pages/Public/ForgotPassword/ForgotPassword";
 import Cart from "pages/Public/Cart/Cart";
+import ProductDetails from "pages/Public/Product/ProductDetails";
 
 const AppRoutes = () => {
 	return (
@@ -27,6 +28,7 @@ const AppRoutes = () => {
 				<Route path="/register" element={<Register />} />
 				<Route path="/password/forgot" element={<ForgotPassword />} />
 				<Route path="/cart" element={<Cart />} />
+				<Route path="/product/:id" element={<ProductDetails />} />
 			</Route>
 		</Routes>
 	);

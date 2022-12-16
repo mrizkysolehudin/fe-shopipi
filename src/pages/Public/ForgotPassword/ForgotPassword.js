@@ -5,7 +5,7 @@ import "./ForgotPassword.css";
 
 const ForgotPassword = () => {
 	return (
-		<div className="pt-5 mt-5">
+		<div>
 			<MetaData title="Forgot Password" />
 			<div className="container-forgot">
 				<h1>Forgot Password</h1>

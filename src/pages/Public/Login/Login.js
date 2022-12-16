@@ -6,7 +6,7 @@ import "./Login.css";
 
 const Login = () => {
 	return (
-		<div className="mt-5 pt-5">
+		<div>
 			<MetaData title="Login" />
 			<div className="container-log">
 				<Form>
