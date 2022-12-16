@@ -29,7 +29,7 @@ const Register = () => {
 
 					<Form.Group controlId="formFile" className="mb-3">
 						<Form.Label className="fw-bolder">Avatar</Form.Label>
-						<div className="d-flex align-items-center">
+						<div className="d-flex align-items-center position-relative">
 							<UserCircleIcon className="user-icon-reg" />
 							<Form.Control
 								type="file"

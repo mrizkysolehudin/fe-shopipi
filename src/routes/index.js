@@ -6,6 +6,7 @@ import PublicRoute from "../components/Navigation/PublicRoute/PublicRoute";
 import Home from "../pages/Public/Home/Home";
 import "../App.css";
 import Register from "pages/Public/Register/Register";
+import Footer from "components/Footer/Footer";
 
 const AppRoutes = () => {
 	return (
@@ -16,6 +17,7 @@ const AppRoutes = () => {
 					<>
 						<SNavbar />
 						<PublicRoute />
+						<Footer />
 					</>
 				}>
 				<Route path="" element={<Home />} />
