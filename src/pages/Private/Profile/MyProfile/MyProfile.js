@@ -48,7 +48,9 @@ const MyProfile = () => {
 							<Button style={{ marginTop: 40 }} variant="danger">
 								My Orders
 							</Button>
-							<Button>Change Password</Button>
+							<Link to="/password/change">
+								<Button>Change Password</Button>
+							</Link>
 						</div>
 					</section>
 				</div>

@@ -12,6 +12,7 @@ import Cart from "pages/Public/Cart/Cart";
 import ProductDetails from "pages/Public/Product/ProductDetails";
 import MyProfile from "pages/Private/Profile/MyProfile/MyProfile";
 import UpdateProfile from "pages/Private/Profile/UpdateProfile/UpdateProfile";
+import ChangePassword from "pages/Public/ChangePassword/ChangePassword";
 
 const AppRoutes = () => {
 	return (
@@ -32,6 +33,7 @@ const AppRoutes = () => {
 				<Route path="/password/forgot" element={<ForgotPassword />} />
 				<Route path="/cart" element={<Cart />} />
 				<Route path="/product/:id" element={<ProductDetails />} />
+				<Route path="/password/change" element={<ChangePassword />} />
 
 				<Route path="/myprofile" element={<MyProfile />} />
 				<Route path="/myprofile/update" element={<UpdateProfile />} />

@@ -2,10 +2,13 @@ import React from "react";
 import Form from "react-bootstrap/Form";
 import "./UpdateProfile.css";
 import gon from "assets/gon.jpg";
+import MetaData from "components/MetaData/MetaData";
 
 const UpdateProfile = () => {
 	return (
 		<div>
+			<MetaData title="Update Profile" />
+
 			<main className="page-update-profile">
 				<Form className="form">
 					<h1>Update Profile</h1>
