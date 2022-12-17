@@ -13,6 +13,7 @@ import ProductDetails from "pages/Public/Product/ProductDetails";
 import MyProfile from "pages/Private/Profile/MyProfile/MyProfile";
 import UpdateProfile from "pages/Private/Profile/UpdateProfile/UpdateProfile";
 import ChangePassword from "pages/Public/ChangePassword/ChangePassword";
+import Shipping from "pages/Private/Cart/Shipping/Shipping";
 
 const AppRoutes = () => {
 	return (
@@ -37,6 +38,7 @@ const AppRoutes = () => {
 
 				<Route path="/myprofile" element={<MyProfile />} />
 				<Route path="/myprofile/update" element={<UpdateProfile />} />
+				<Route path="/shipping" element={<Shipping />} />
 			</Route>
 		</Routes>
 	);
