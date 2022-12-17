@@ -1,0 +1,83 @@
+.page-prodetails img {
+  width: 400px;
+  text-align: center;
+}
+
+.page-prodetails .wrap-img {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.page-prodetails .id-product {
+  color: rgba(0, 0, 0, 0.6);
+  padding-bottom: 20px;
+  border-bottom: 1.1px solid rgba(0, 0, 0, 0.1);
+}
+
+.page-prodetails .icon-star {
+  width: 22px;
+  color: goldenrod;
+}
+
+.page-prodetails .rating {
+  border-bottom: 1.1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 8px;
+}
+
+.page-prodetails .jml-review {
+  margin-left: 6px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.page-prodetails button {
+  border: none;
+}
+
+.page-prodetails .btn-minus {
+  margin-right: 20px;
+}
+
+.page-prodetails .btn-plus {
+  margin-left: 20px;
+}
+
+.page-prodetails .btn-add {
+  background-color: orange;
+  margin-left: 30px;
+  padding: 10px 40px;
+  position: absolute;
+  font-size: 1.25rem;
+  margin-top: -6px;
+}
+
+.page-prodetails .btn-add:hover {
+  background-color: rgba(218, 141, 0, 0.981);
+}
+
+.page-prodetails .status-stock {
+  border-top: 1.1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1.1px solid rgba(0, 0, 0, 0.1);
+  margin: 25px 0;
+  padding: 20px 0;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.page-prodetails .status-stock span {
+  font-weight: 700;
+  color: green;
+  font-size: 1.3rem;
+}
+
+.page-prodetails .sold {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding-top: 15px;
+}
+
+.page-prodetails .btn-submit {
+  margin-top: 30px;
+  padding: 8px 35px;
+  font-size: 1.1rem;
+}

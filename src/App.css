@@ -3,3 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.btn-orange {
+  color: white;
+  background-color: orange;
+  border-radius: 25px;
+  font-weight: 500;
+}
+
+.btn-orange:hover {
+  background-color: rgba(218, 141, 0, 0.981);
+}
