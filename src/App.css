@@ -9,8 +9,14 @@
   background-color: orange;
   border-radius: 25px;
   font-weight: 500;
+  border: none;
 }
 
 .btn-orange:hover {
   background-color: rgba(218, 141, 0, 0.981);
+}
+
+.icon-star {
+  width: 18px;
+  color: goldenrod;
 }

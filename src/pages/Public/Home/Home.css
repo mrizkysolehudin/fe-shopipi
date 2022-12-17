@@ -1,0 +1,43 @@
+.page-home .slider {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 50px;
+}
+
+.page-home .categories {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 20px;
+}
+
+.page-home .ratings {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 50px;
+}
+
+.page-home .card-product{
+  border: 1.3px solid rgba(0, 0, 0, 0.1);
+  padding: 18px;
+  border-radius: 4px;
+}
+
+.page-home .card-product img {
+  width: 190px;
+  margin-bottom: 1.3rem;
+  border-radius: 4px;
+}
+
+.page-home .card-product .reviews {
+  color: rgba(0, 0, 0, 0.6);
+  margin-left: 8px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.page-home .card-product .btn-details {
+  padding: 10px 0;
+  border-radius: 4px;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 16px;
+}
