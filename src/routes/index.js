@@ -10,7 +10,8 @@ import Footer from "components/Footer/Footer";
 import ForgotPassword from "pages/Public/ForgotPassword/ForgotPassword";
 import Cart from "pages/Public/Cart/Cart";
 import ProductDetails from "pages/Public/Product/ProductDetails";
-import MyProfile from "pages/Private/Profile/MyProfile";
+import MyProfile from "pages/Private/Profile/MyProfile/MyProfile";
+import UpdateProfile from "pages/Private/Profile/UpdateProfile/UpdateProfile";
 
 const AppRoutes = () => {
 	return (
@@ -33,6 +34,7 @@ const AppRoutes = () => {
 				<Route path="/product/:id" element={<ProductDetails />} />
 
 				<Route path="/myprofile" element={<MyProfile />} />
+				<Route path="/myprofile/update" element={<UpdateProfile />} />
 			</Route>
 		</Routes>
 	);

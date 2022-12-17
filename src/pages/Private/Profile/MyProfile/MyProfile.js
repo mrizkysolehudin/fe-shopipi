@@ -3,6 +3,7 @@ import React from "react";
 import { Button, Container } from "react-bootstrap";
 import gon from "assets/gon.jpg";
 import "./MyProfile.css";
+import { Link } from "react-router-dom";
 
 const MyProfile = () => {
 	return (
@@ -17,9 +18,11 @@ const MyProfile = () => {
 						<img src={gon} alt="" />
 
 						<div>
-							<button className="btn-orange btn-edit">
-								Edit Profile
-							</button>
+							<Link to="/myprofile/update">
+								<button className="btn-orange btn-edit">
+									Edit Profile
+								</button>
+							</Link>
 						</div>
 					</section>
 
