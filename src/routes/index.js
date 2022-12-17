@@ -10,6 +10,7 @@ import Footer from "components/Footer/Footer";
 import ForgotPassword from "pages/Public/ForgotPassword/ForgotPassword";
 import Cart from "pages/Public/Cart/Cart";
 import ProductDetails from "pages/Public/Product/ProductDetails";
+import MyProfile from "pages/Private/Profile/MyProfile";
 
 const AppRoutes = () => {
 	return (
@@ -24,11 +25,14 @@ const AppRoutes = () => {
 					</>
 				}>
 				<Route path="" element={<Home />} />
+				<Route path="/search/:keyword" element={<Home />} />
 				<Route path="/login" element={<Login />} />
 				<Route path="/register" element={<Register />} />
 				<Route path="/password/forgot" element={<ForgotPassword />} />
 				<Route path="/cart" element={<Cart />} />
 				<Route path="/product/:id" element={<ProductDetails />} />
+
+				<Route path="/myprofile" element={<MyProfile />} />
 			</Route>
 		</Routes>
 	);
