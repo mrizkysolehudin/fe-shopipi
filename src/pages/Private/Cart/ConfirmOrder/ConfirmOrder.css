@@ -1,0 +1,66 @@
+.page-confirm .shipping{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-right: 40px;
+  padding-bottom: 1px;
+}
+
+main > div {
+  margin-top: 40px;
+}
+
+.page-confirm .left {
+  padding-right: 100px;
+}
+
+.page-confirm .card-product {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 16px 6px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-confirm .card-product img {
+  width: 70px;
+  object-fit: contain;
+}
+
+.page-confirm .card-product .title {
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 500;
+}
+
+.page-confirm .card-product .price {
+  margin-right: 60px;
+}
+
+.page-confirm .card-order {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  padding: 25px;
+  height: fit-content;
+
+}
+
+.page-confirm .card-order h3 {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 20px;
+  margin-bottom: 18px;
+}
+
+.page-confirm .card-order section > div {
+  font-size: 1.1rem;
+}
+
+.page-confirm .card-order .total {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-top: 14px;
+  margin-top: 8px;
+}
+
+.page-confirm .card-order .btn-proceed {
+  margin-top: 30px;
+  width: 100%;
+  padding: 7px 0;
+}
