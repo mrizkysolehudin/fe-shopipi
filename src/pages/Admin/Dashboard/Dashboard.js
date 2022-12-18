@@ -10,6 +10,7 @@ import {
 import MetaData from "components/MetaData/MetaData";
 import React from "react";
 import { Link } from "react-router-dom";
+import SideBar from "../SideBar/SideBar";
 import "./Dashboard.css";
 
 const Dashboard = () => {
@@ -18,33 +19,7 @@ const Dashboard = () => {
 			<MetaData title="Dashboard" />
 
 			<main className="page-dashboard col-12">
-				<div className="menu">
-					<Link to="/dashboard" className="d-flex">
-						<GlobeAltIcon className="icon-dashboard" />
-						Dashboard
-					</Link>
-
-					<Link to="/dashboard" className="d-flex">
-						<FolderIcon className="icon-dashboard" />
-						Products
-						<ChevronDownIcon className="icon-dashboard-sm" />
-					</Link>
-
-					<Link to="/dashboard" className="d-flex">
-						<ClipboardListIcon className="icon-dashboard" />
-						Orders
-					</Link>
-
-					<Link to="/dashboard" className="d-flex">
-						<UserGroupIcon className="icon-dashboard" />
-						Users
-					</Link>
-
-					<Link to="/dashboard" className="d-flex">
-						<StarIcon className="icon-dashboard" />
-						Reviews
-					</Link>
-				</div>
+				<SideBar />
 
 				<div className="content">
 					<h1>Dashboard</h1>

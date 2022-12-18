@@ -1,42 +1,8 @@
 .page-dashboard {
   margin-top: -40px;
   display: flex;
-}
-
-.page-dashboard .menu {
-  width: 12rem;
-  background-color: black;
   height: 100vh;
-  padding-top: 30px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
 }
-
-
-.page-dashboard .menu > a {
-  color: white;
-  font-weight: 500;
-  font-size: 1.2rem;
-}
-
-
-.page-dashboard .icon-dashboard {
-  width: 24px;
-  color: white;
-  margin-right: 10px;
-  margin-left: 10px;
-}
-
-
-.page-dashboard .icon-dashboard-sm {
-  width: 30px;
-  font-weight: 900;
-  color: white;
-  margin-left: 10px;
-}
-
-
 
 .page-dashboard .content {
   margin-top: 60px;

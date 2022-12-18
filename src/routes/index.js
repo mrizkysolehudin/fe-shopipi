@@ -46,7 +46,16 @@ const AppRoutes = () => {
 				<Route path="/confirm" element={<ConfirmOrder />} />
 				<Route path="/payment" element={<Payment />} />
 				<Route path="/success" element={<OrderSuccess />} />
+			</Route>
 
+			<Route
+				path="/"
+				element={
+					<>
+						<SNavbar />
+						<PublicRoute />
+					</>
+				}>
 				<Route path="/dashboard" element={<Dashboard />} />
 			</Route>
 		</Routes>
