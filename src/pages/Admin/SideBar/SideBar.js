@@ -20,7 +20,7 @@ const SideBar = () => {
 				Dashboard
 			</Link>
 
-			<Link to="/dashboard" className="d-flex toogle-">
+			<Link to="" className="d-flex toogle-">
 				<FolderIcon className="icon-dashboard" />
 				<NavDropdown
 					id="nav-dropdown-dark-example"
@@ -50,7 +50,7 @@ const SideBar = () => {
 				Users
 			</Link>
 
-			<Link to="/dashboard" className="d-flex">
+			<Link to="/admin/reviews" className="d-flex">
 				<StarIcon className="icon-dashboard" />
 				Reviews
 			</Link>

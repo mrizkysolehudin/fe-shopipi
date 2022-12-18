@@ -19,6 +19,7 @@ import ConfirmOrder from "pages/Private/Cart/ConfirmOrder/ConfirmOrder";
 import OrderSuccess from "pages/Private/Cart/OrderSuccess/OrderSuccess";
 import Dashboard from "pages/Admin/Dashboard/Dashboard";
 import AddProduct from "pages/Admin/Product/AddProduct/AddProduct";
+import Reviews from "pages/Admin/Reviews/Reviews";
 
 const AppRoutes = () => {
 	return (
@@ -59,6 +60,7 @@ const AppRoutes = () => {
 				}>
 				<Route path="/dashboard" element={<Dashboard />} />
 				<Route path="/admin/product" element={<AddProduct />} />
+				<Route path="/admin/reviews" element={<Reviews />} />
 			</Route>
 		</Routes>
 	);

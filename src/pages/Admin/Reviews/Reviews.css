@@ -1,0 +1,16 @@
+.page-reviews {
+  min-height: 100vh;
+}
+
+.page-reviews main {
+  max-width: 36rem;
+  margin: 50px auto 0;
+}
+
+.page-reviews .form {
+  width: 26rem;
+}
+
+.page-reviews .btn-search {
+  width: 100%;
+}
