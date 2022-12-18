@@ -1,0 +1,95 @@
+.page-dashboard {
+  margin-top: -40px;
+  display: flex;
+}
+
+.page-dashboard .menu {
+  width: 12rem;
+  background-color: black;
+  height: 100vh;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+.page-dashboard .menu > a {
+  color: white;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+
+.page-dashboard .icon-dashboard {
+  width: 24px;
+  color: white;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+.page-dashboard .icon-dashboard-sm {
+  width: 30px;
+  font-weight: 900;
+  color: white;
+  margin-left: 10px;
+}
+
+
+
+.page-dashboard .content {
+  margin-top: 60px;
+  margin-left: 30px;
+  width: 80%;
+}
+
+.page-dashboard .content h1 {
+  margin-bottom: 40px;
+}
+
+.page-dashboard .content .total {
+  height: 8rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1.6rem;
+  display: grid;
+  align-items: center;
+}
+
+.page-dashboard .content-2 {
+  display: flex;
+  margin-top: 14px;
+  text-align: center;
+  color: white;
+  font-size: 1.6rem;
+  gap: 20px;
+}
+
+.page-dashboard .content-2 > div {
+  border-radius: 8px;
+  height: 10rem;
+  align-items: center;
+  padding-top: 20px;
+  width: 238px;
+}
+
+.page-dashboard .content-2 > div > div {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: left;
+  padding-left: 20px;
+}
+
+.page-dashboard .content-2 > div > div > a {
+  color: white;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.page-dashboard .content-2 > div > div > a > span {
+  margin-left: 100px;
+}
+
+.page-dashboard .content-2 .icon-dashboard-xs {
+  width: 15px;
+}
