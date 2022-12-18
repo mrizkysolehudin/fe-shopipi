@@ -16,6 +16,7 @@ import ChangePassword from "pages/Public/ChangePassword/ChangePassword";
 import Shipping from "pages/Private/Cart/Shipping/Shipping";
 import Payment from "pages/Private/Cart/Payment/Payment";
 import ConfirmOrder from "pages/Private/Cart/ConfirmOrder/ConfirmOrder";
+import OrderSuccess from "pages/Private/Cart/OrderSuccess/OrderSuccess";
 
 const AppRoutes = () => {
 	return (
@@ -43,6 +44,7 @@ const AppRoutes = () => {
 				<Route path="/shipping" element={<Shipping />} />
 				<Route path="/confirm" element={<ConfirmOrder />} />
 				<Route path="/payment" element={<Payment />} />
+				<Route path="/success" element={<OrderSuccess />} />
 			</Route>
 		</Routes>
 	);

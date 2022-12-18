@@ -2,7 +2,6 @@ import MetaData from "components/MetaData/MetaData";
 import React from "react";
 import CheckoutSteps from "../CheckoutSteps/CheckoutSteps";
 import "./Payment.css";
-import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 
 const Payment = () => {

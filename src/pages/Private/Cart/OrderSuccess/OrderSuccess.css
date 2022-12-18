@@ -1,0 +1,17 @@
+.page-order-success {
+  max-width: 28rem;
+  margin: 80px auto 0;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+}
+
+.page-order-success .check {
+  margin: 0 auto 20px;
+  width: 250px;
+  color: rgb(34, 202, 34);
+}
+
+.page-order-success a:hover {
+  text-decoration: underline;
+}
