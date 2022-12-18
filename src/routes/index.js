@@ -21,6 +21,7 @@ import Dashboard from "pages/Admin/Dashboard/Dashboard";
 import AddProduct from "pages/Admin/Product/AddProduct/AddProduct";
 import Reviews from "pages/Admin/Reviews/Reviews";
 import UpdateProduct from "pages/Admin/Product/UpdateProduct/UpdateProduct";
+import UpdateUser from "pages/Admin/Users/UpdateUser/UpdateUser";
 
 const AppRoutes = () => {
 	return (
@@ -63,6 +64,7 @@ const AppRoutes = () => {
 				<Route path="/admin/product" element={<AddProduct />} />
 				<Route path="/admin/product/:id" element={<UpdateProduct />} />
 				<Route path="/admin/reviews" element={<Reviews />} />
+				<Route path="/admin/user/:id" element={<UpdateUser />} />
 			</Route>
 		</Routes>
 	);
