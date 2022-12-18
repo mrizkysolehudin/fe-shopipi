@@ -1,0 +1,31 @@
+.page-update-product {
+  min-height: 100vh;
+}
+
+
+
+.page-update-product main {
+  max-width: 33rem;
+  margin: auto;
+}
+
+.page-update-product h1 {
+  padding-bottom: 10px;
+
+}
+
+.page-update-product main .form  {
+  padding: 30px 50px 40px;
+  box-shadow: 10px 10px 25px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 40px;
+  margin-bottom: 60px;
+  width: 33rem;
+}
+
+.page-update-product .btn-update {
+  width: 100%;
+  padding: 14px 0;
+  text-transform: uppercase;
+  border-radius: 4px;
+  margin-top: 30px;
+}

@@ -1,20 +1,20 @@
+import React from "react";
 import MetaData from "components/MetaData/MetaData";
 import SideBar from "pages/Admin/SideBar/SideBar";
-import React from "react";
 import { Form } from "react-bootstrap";
-import "./AddProduct.css";
+import "./UpdateProduct.css";
 
-const AddProduct = () => {
+const UpdateProduct = () => {
 	return (
-		<div className="page-add-product d-flex">
-			<MetaData title="Add Product" />
+		<div className="page-update-product d-flex">
+			<MetaData title="Update Product" />
 			<div className="">
 				<SideBar />
 			</div>
 
 			<main className="d-flex">
 				<Form className="form">
-					<h1>Add product</h1>
+					<h1>Update product</h1>
 
 					<Form.Group className="mb-3" controlId="formBasicEmail">
 						<Form.Label className="fw-bold">Name</Form.Label>
@@ -59,11 +59,11 @@ const AddProduct = () => {
 						<Form.Control type="file" />
 					</Form.Group>
 
-					<button className="btn-orange btn-create">Create</button>
+					<button className="btn-orange btn-update">Create</button>
 				</Form>
 			</main>
 		</div>
 	);
 };
 
-export default AddProduct;
+export default UpdateProduct;
