@@ -32,7 +32,7 @@ const SideBar = () => {
 							<FolderIcon className="icon-dashboard text-dark" />{" "}
 							All
 						</Link>
-						<Link to="#action/3.2" className="text-dark">
+						<Link to="/admin/product" className="text-dark">
 							<PlusIcon className="icon-dashboard text-dark" />
 							Create
 						</Link>

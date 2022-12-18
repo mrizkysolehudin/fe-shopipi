@@ -19,7 +19,9 @@ const Dashboard = () => {
 			<MetaData title="Dashboard" />
 
 			<main className="page-dashboard col-12">
-				<SideBar />
+				<div>
+					<SideBar />
+				</div>
 
 				<div className="content">
 					<h1>Dashboard</h1>

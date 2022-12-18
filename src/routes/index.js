@@ -18,6 +18,7 @@ import Payment from "pages/Private/Cart/Payment/Payment";
 import ConfirmOrder from "pages/Private/Cart/ConfirmOrder/ConfirmOrder";
 import OrderSuccess from "pages/Private/Cart/OrderSuccess/OrderSuccess";
 import Dashboard from "pages/Admin/Dashboard/Dashboard";
+import AddProduct from "pages/Admin/Product/AddProduct/AddProduct";
 
 const AppRoutes = () => {
 	return (
@@ -57,6 +58,7 @@ const AppRoutes = () => {
 					</>
 				}>
 				<Route path="/dashboard" element={<Dashboard />} />
+				<Route path="/admin/product" element={<AddProduct />} />
 			</Route>
 		</Routes>
 	);

@@ -1,0 +1,24 @@
+.page-add-product {
+  min-height: 100vh;
+}
+
+.page-add-product main {
+  max-width: 30rem;
+  margin: auto;
+}
+
+.page-add-product main .form  {
+  padding: 30px 50px 40px;
+  box-shadow: 10px 10px 25px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 40px;
+  margin-bottom: 60px;
+  width: 31rem;
+}
+
+.page-add-product .btn-create {
+  width: 100%;
+  padding: 14px 0;
+  text-transform: uppercase;
+  border-radius: 4px;
+  margin-top: 30px;
+}
