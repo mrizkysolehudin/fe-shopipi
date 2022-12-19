@@ -31,7 +31,7 @@
   color: orange;
 }
 
-.search-input {
+.nav .search-input {
   display: flex;
   width: 50%;
   height: fit-content;
@@ -40,7 +40,7 @@
 
 }
 
-.search-input input {
+.nav .search-input input {
   border-top-left-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
   padding: 4px 5px;
@@ -50,7 +50,7 @@
 
 }
 
-.search-input input::placeholder {
+.nav .search-input input::placeholder {
   padding: 0 10px;
   font-weight: 500;
 }
@@ -70,22 +70,22 @@
   background-color: rgba(218, 141, 0, 0.981);
 }
 
-.search-icon {
+.nav .search-icon {
   width: 20px;
   height: 20px;
   color: black;
 }
 
-.cart-wrapper {
+.nav .cart-wrapper {
   text-decoration: none;
   font-weight: 600;
 }
 
- .cart-white {
+.nav .cart-white {
   color: white;
  }
 
-.cart {
+.nav .cart {
   background-color: orange;
   padding: 0 8px;
   border-radius: 3px;
@@ -94,11 +94,11 @@
   height: fit-content;
 }
 
-.cart:hover {
+.nav .cart:hover {
   background-color: rgba(218, 141, 0, 0.981);
 }
 
-.btn-login {
+.nav .btn-login {
   color: black;
   text-decoration: none;
   background-color: orange;
@@ -108,6 +108,27 @@
   margin-top: -18px;
 }
 
-.btn-login:hover {
+.nav .btn-login:hover {
   background-color: rgba(218, 141, 0, 0.981);
+}
+
+.nav .wrapper-avatar {
+  margin-top: -18px;
+  margin-left: 20px;
+}
+
+.nav .img-avatar {
+  border-radius: 9999px;
+  width: 40px;
+  height: 40px;
+  margin-right: 8px;
+}
+
+.nav .btn-logout {
+  border: none;
+  color: red;
+}
+
+.nav .btn-logout:hover {
+  
 }

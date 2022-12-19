@@ -1,5 +1,5 @@
 import Login from "pages/Public/Login/Login";
-import React from "react";
+import React, { useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
 import SNavbar from "../components/Navigation/Navbar/Navbar";
 import PublicRoute from "../components/Navigation/PublicRoute/PublicRoute";
@@ -22,8 +22,14 @@ import AddProduct from "pages/Admin/Product/AddProduct/AddProduct";
 import Reviews from "pages/Admin/Reviews/Reviews";
 import UpdateProduct from "pages/Admin/Product/UpdateProduct/UpdateProduct";
 import UpdateUser from "pages/Admin/Users/UpdateUser/UpdateUser";
+import store from "redux/store";
+import { loadUser } from "redux/actions/userActions";
 
 const AppRoutes = () => {
+	useEffect(() => {
+		store.dispatch(loadUser());
+	}, []);
+
 	return (
 		<Routes>
 			<Route

@@ -7,7 +7,7 @@ import "./Register.css";
 
 const Register = () => {
 	return (
-		<div className="mt-5 pt-5">
+		<div className="mt-5">
 			<MetaData title="Register" />
 			<div className="container-reg">
 				<h1>Register</h1>
