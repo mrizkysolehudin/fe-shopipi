@@ -1,12 +1,4 @@
-import {
-	ChevronDownIcon,
-	ChevronRightIcon,
-	ClipboardListIcon,
-	FolderIcon,
-	GlobeAltIcon,
-	StarIcon,
-	UserGroupIcon,
-} from "@heroicons/react/solid";
+import { ChevronRightIcon } from "@heroicons/react/solid";
 import MetaData from "components/MetaData/MetaData";
 import React from "react";
 import { Link } from "react-router-dom";
