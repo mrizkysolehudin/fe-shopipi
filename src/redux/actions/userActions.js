@@ -23,6 +23,7 @@ import {
 	NEW_PASSWORD_SUCCESS,
 	REGISTER_USER_FAIL,
 	REGISTER_USER_REQUEST,
+	REGISTER_USER_SUCCESS,
 	UPDATE_PASSWORD_FAIL,
 	UPDATE_PASSWORD_REQUEST,
 	UPDATE_PASSWORD_SUCCESS,
@@ -73,14 +74,14 @@ export const register = (userData) => async (dispatch) => {
 
 		const config = {
 			headers: {
-				"Content-type": "multipart/form-data",
+				"Content-Type": "multipart/form-data",
 			},
 		};
 
 		const { data } = await axios.post("/api/v1/register", userData, config);
 
 		dispatch({
-			type: REGISTER_USER_REQUEST,
+			type: REGISTER_USER_SUCCESS,
 			payload: data.user,
 		});
 	} catch (error) {

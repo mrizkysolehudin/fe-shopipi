@@ -15,6 +15,7 @@
   padding: 18px 0;
   text-align: center;
   border-radius: 5px;
+  border: none;
 }
 
 .btn-register:hover {
@@ -26,15 +27,15 @@
 .user-icon-reg {
   width: 4rem;
   height: 4rem;
-  opacity: 0.2;
   margin-right: 20px;
   position: relative;
+  border-radius: 9999px;
 }
 
 .input-file-reg {
   width: 100%;
   opacity: 0;
-  z-index: 10;
+  z-index: 15;
   outline: blue;
 }
 
