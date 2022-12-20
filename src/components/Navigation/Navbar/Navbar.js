@@ -1,13 +1,15 @@
 import "./Navbar.css";
-import { SearchIcon, ShoppingCartIcon } from "@heroicons/react/solid";
+import { ShoppingCartIcon } from "@heroicons/react/solid";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { Dropdown } from "react-bootstrap";
 import { logout } from "redux/actions/userActions";
 import { useAlert } from "react-alert";
+import Search from "components/Search/Search";
 
 const SNavbar = () => {
 	const dispatch = useDispatch();
+
 	const auth = useSelector((state) => state.auth);
 	const { isAuthenticated, user } = auth;
 
@@ -27,13 +29,7 @@ const SNavbar = () => {
 				</p>
 			</Link>
 
-			<div className="search-input">
-				<input type="text" placeholder="Enter Product Name ..." />
-
-				<Link to="/" className="btn-search">
-					<SearchIcon className="search-icon" />
-				</Link>
-			</div>
+			<Search />
 
 			<div className="d-flex align-items-center">
 				<Link to="/cart" className="d-flex cart-wrapper">

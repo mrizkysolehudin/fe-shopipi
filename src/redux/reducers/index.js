@@ -6,6 +6,15 @@ import {
 	allUsersReducer,
 	userDetailsReducer,
 } from "./userReducers";
+import {
+	productsReducer,
+	newProductReducer,
+	productReducer,
+	productDetailsReducer,
+	newReviewReducer,
+	productReviewsReducer,
+	reviewReducer,
+} from "./productReducers";
 
 const rootReducer = combineReducers({
 	auth: authReducer,
@@ -13,6 +22,13 @@ const rootReducer = combineReducers({
 	forgotPassword: forgotPasswordReducer,
 	allUsers: allUsersReducer,
 	userDetails: userDetailsReducer,
+	products: productsReducer,
+	product: productReducer,
+	productDetails: productDetailsReducer,
+	newProduct: newProductReducer,
+	newReview: newReviewReducer,
+	productReviews: productReviewsReducer,
+	review: reviewReducer,
 });
 
 export default rootReducer;

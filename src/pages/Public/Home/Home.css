@@ -18,12 +18,17 @@
   border: 1.3px solid rgba(0, 0, 0, 0.1);
   padding: 18px;
   border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-height: 470px;
 }
 
 .page-home .card-product img {
   width: 190px;
   margin-bottom: 1.3rem;
   border-radius: 4px;
+  height: 150px;
 }
 
 .page-home .card-product .reviews {
@@ -40,4 +45,32 @@
   width: 100%;
   margin-top: 15px;
   margin-bottom: 16px;
+}
+
+.page-home a.product-name {
+  color: black;
+}
+
+.page-home a.product-name:hover {
+  color: orange;
+}
+
+.page-home .link-category {
+  color: black;
+  border: none;
+  background-color: transparent;
+  text-align: start
+}
+
+.page-home .link-category:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
+.page-home .bintang div {
+  cursor: pointer;
+}
+.page-home .bintang div:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  width: fit-content;
 }

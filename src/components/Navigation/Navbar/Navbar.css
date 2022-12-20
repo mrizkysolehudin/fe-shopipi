@@ -64,6 +64,7 @@
   border-top-right-radius: 0.25rem;
   border-bottom-right-radius: 0.25rem;
   max-height: 45px;
+  border: none;
 }
 
 .nav .btn-search:hover {
