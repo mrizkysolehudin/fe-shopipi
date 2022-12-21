@@ -40,7 +40,7 @@
 }
 
 .page-prodetails .btn-plus {
-  margin-left: 20px;
+  margin-left: 5px;
 }
 
 .page-prodetails .btn-add {
@@ -80,4 +80,12 @@
   margin-top: 30px;
   padding: 8px 35px;
   font-size: 1.1rem;
+}
+
+
+.page-prodetails input.input-counter {
+  border: none;
+  width: 40px;
+  text-align: center;
+  outline: none;
 }

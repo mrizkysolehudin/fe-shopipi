@@ -164,7 +164,7 @@ const Home = () => {
 									</div>
 
 									<div className="mx-5">
-										<p className="ratings">Ratings</p>
+										<p className="rate">Ratings</p>
 
 										<div>
 											{bintang.reverse() &&

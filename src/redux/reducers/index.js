@@ -15,6 +15,7 @@ import {
 	productReviewsReducer,
 	reviewReducer,
 } from "./productReducers";
+import { cartReducer } from "./cartReducers";
 
 const rootReducer = combineReducers({
 	auth: authReducer,
@@ -29,6 +30,7 @@ const rootReducer = combineReducers({
 	newReview: newReviewReducer,
 	productReviews: productReviewsReducer,
 	review: reviewReducer,
+	cart: cartReducer,
 });
 
 export default rootReducer;
