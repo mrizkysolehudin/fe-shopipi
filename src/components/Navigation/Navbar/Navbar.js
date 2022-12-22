@@ -9,11 +9,12 @@ import Search from "components/Search/Search";
 
 const SNavbar = () => {
 	const dispatch = useDispatch();
+	const alert = useAlert();
 
 	const auth = useSelector((state) => state.auth);
 	const { isAuthenticated, user } = auth;
-
-	const alert = useAlert();
+	const cart = useSelector((state) => state.cart);
+	const { cartItems } = cart;
 
 	const handleLogout = () => {
 		dispatch(logout());
@@ -34,7 +35,7 @@ const SNavbar = () => {
 			<div className="d-flex align-items-center">
 				<Link to="/cart" className="d-flex cart-wrapper">
 					<p className="cart-white">Cart</p>
-					<p className="cart">0</p>
+					<p className="cart">{cartItems?.length}</p>
 				</Link>
 
 				{isAuthenticated ? (
