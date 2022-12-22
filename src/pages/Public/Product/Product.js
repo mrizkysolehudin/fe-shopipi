@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import StarIconOutline from "@heroicons/react/outline/StarIcon";
+import bintang from "components/Bintang/Bintang";
 
 const Product = ({ item }) => {
 	return (
@@ -17,13 +17,13 @@ const Product = ({ item }) => {
 
 			<div>
 				<div className="d-flex">
-					<span>
-						<StarIconOutline className="icon-star" />
-						<StarIconOutline className="icon-star" />
-						<StarIconOutline className="icon-star" />
-						<StarIconOutline className="icon-star" />
-						<StarIconOutline className="icon-star" />
-					</span>
+					{bintang.map((star) => {
+						if (item.ratings === star.rate) {
+							return <span>{star.element}</span>;
+						} else if (Math.round(item.ratings) === star.rate) {
+							return <span>{star.element}</span>;
+						}
+					})}
 					<p className="reviews">({item.reviews.length} reviews)</p>
 				</div>
 

@@ -19,7 +19,7 @@
 }
 
 .name_price-cart .name:hover {
-  color: orange;
+  text-decoration: underline;
 }
 
 .name_price-cart .title {
@@ -28,18 +28,22 @@
   color: orange;
 }
 
-.btn-plus-cart {
+.btn-minus-cart {
   height: fit-content;
   color: white;
   background-color: red;
   border: none;
-  padding: 0 8px 4px;
+  padding: 0 10px 4px;
   align-items: center;
   font-weight: 700;
   border-radius: 4px;
 }
 
-.btn-minus-cart {
+.btn-minus-cart:hover {
+  background-color: rgb(177, 0, 0);
+}
+
+.btn-plus-cart {
   height: fit-content;
   color: white;
   background-color: blue;
@@ -49,6 +53,10 @@
   font-weight: 700;
   border-radius: 4px;
   margin-left: 15px;
+}
+
+.btn-plus-cart:hover {
+  background-color: rgb(1, 1, 212)
 }
 
 .btn-trash-cart {

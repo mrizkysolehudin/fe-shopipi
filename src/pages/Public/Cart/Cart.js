@@ -100,7 +100,7 @@ const Cart = () => {
 													cartItem.quantity
 												)
 											}
-											className="btn-plus-cart me-4">
+											className="btn-minus-cart me-4">
 											-
 										</button>
 										<input
@@ -118,7 +118,7 @@ const Cart = () => {
 													cartItem.stock
 												)
 											}
-											className="btn-minus-cart">
+											className="btn-plus-cart">
 											+
 										</button>
 									</div>
