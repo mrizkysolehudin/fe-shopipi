@@ -35,7 +35,7 @@ export const cartReducer = (state = initialState, action) => {
 			return {
 				...state,
 				cartItems: state.cartItems.filter(
-					(i) => i.product !== action.product
+					(i) => i.product !== action.payload
 				),
 			};
 

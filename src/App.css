@@ -117,3 +117,11 @@
   font-size: 0.8rem;
   color: grey;
 }
+
+
+.count {
+  border: none;
+  width: 40px;
+  text-align: center;
+  outline: none;
+}

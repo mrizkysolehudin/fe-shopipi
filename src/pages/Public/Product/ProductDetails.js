@@ -190,7 +190,7 @@ const ProductDetails = () => {
 										<input
 											style={{ fontSize: "1.2rem" }}
 											type="number"
-											className="d-flex align-items-center input-counter count"
+											className="d-flex align-items-center count"
 											readOnly
 											value={quantity}
 										/>
