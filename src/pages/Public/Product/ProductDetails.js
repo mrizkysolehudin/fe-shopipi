@@ -319,38 +319,40 @@ const ProductDetails = () => {
 						</div>
 					</div>
 
-					<div style={{ maxWidth: "56rem", marginTop: 150 }}>
-						<p className="border-bottom pb-3 h2 fw-normal">
-							Other's Review:
-						</p>
+					{product?.reviews?.length === 0 ? null : (
+						<div style={{ maxWidth: "56rem", marginTop: 150 }}>
+							<p className="border-bottom pb-3 h2 fw-normal">
+								Other's Review:
+							</p>
 
-						{product?.reviews?.map((itemReview, index) => {
-							return bintang?.map((item) => {
-								if (itemReview.rating === item.rate) {
-									return (
-										<article
-											key={index}
-											className="border-bottom pb-2 mt-4">
-											<span>{item.element}</span>
-											<div
-												className="ps-1"
-												style={{
-													color: "rgba(0,0,0,0.5)",
-													fontSize: "0.9rem",
-													marginTop: -4,
-												}}>
-												by {itemReview.name}
-											</div>
+							{product?.reviews?.map((itemReview, index) => {
+								return bintang?.map((item) => {
+									if (itemReview.rating === item.rate) {
+										return (
+											<article
+												key={index}
+												className="border-bottom pb-2 mt-4">
+												<span>{item.element}</span>
+												<div
+													className="ps-1"
+													style={{
+														color: "rgba(0,0,0,0.5)",
+														fontSize: "0.9rem",
+														marginTop: -4,
+													}}>
+													by {itemReview.name}
+												</div>
 
-											<p className="h5 pt-2 ps-1 fw-normal">
-												{itemReview.comment}
-											</p>
-										</article>
-									);
-								}
-							});
-						})}
-					</div>
+												<p className="h5 pt-2 ps-1 fw-normal">
+													{itemReview.comment}
+												</p>
+											</article>
+										);
+									}
+								});
+							})}
+						</div>
+					)}
 				</Container>
 			)}
 		</div>

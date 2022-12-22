@@ -71,20 +71,11 @@ const Dashboard = () => {
 							</div>
 						</div>
 
-						<div className="bg-warning col-3">
+						<div className="bg-warning col-3 d-flex justify-content-center">
 							<p>
 								Out of Stock <br />
 								<span className="fw-bold">9</span>
 							</p>
-
-							<div>
-								<Link to="/dashboard">
-									View Details{" "}
-									<span>
-										<ChevronRightIcon className="icon-dashboard-xs" />
-									</span>
-								</Link>
-							</div>
 						</div>
 					</section>
 				</div>
