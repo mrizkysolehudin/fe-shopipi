@@ -70,9 +70,6 @@ const Register = () => {
 		}
 	}, [navigate, error, loading, dispatch, alert, isAuthenticated]);
 
-	// console.log("auth");
-	// console.log(auth);
-
 	return (
 		<div className="mt-5">
 			<MetaData title="Register" />

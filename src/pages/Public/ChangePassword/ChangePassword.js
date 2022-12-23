@@ -45,7 +45,7 @@ const ChangePassword = () => {
 				type: UPDATE_PASSWORD_RESET,
 			});
 		}
-	}, [error, loading, alert, isUpdated, dispatch]);
+	}, [error, loading, alert, isUpdated, dispatch, navigate]);
 
 	return (
 		<div className="page-change-password">
