@@ -24,8 +24,13 @@ import UpdateProduct from "pages/Admin/Product/UpdateProduct/UpdateProduct";
 import UpdateUser from "pages/Admin/Users/UpdateUser/UpdateUser";
 import store from "redux/store";
 import { loadUser } from "redux/actions/userActions";
+import { useSelector } from "react-redux";
 
 const AppRoutes = () => {
+	const { user, isAuthenticated, loading } = useSelector(
+		(state) => state.auth
+	);
+
 	useEffect(() => {
 		store.dispatch(loadUser());
 	}, []);
@@ -38,7 +43,9 @@ const AppRoutes = () => {
 					<>
 						<SNavbar />
 						<PublicRoute />
-						<Footer />
+
+						{(!loading && !isAuthenticated) ||
+							(user?.role !== "admin" && <Footer />)}
 					</>
 				}>
 				<Route path="" element={<Home />} />
