@@ -49,7 +49,7 @@ const Home = () => {
 		}
 
 		dispatch(getProducts(keyword, currentPage, price, category, rating));
-	}, [price, dispatch, keyword, currentPage, category, rating, error]);
+	}, [price, dispatch, keyword, currentPage, category, rating, error, alert]);
 
 	const categories = [
 		"Electronics",
