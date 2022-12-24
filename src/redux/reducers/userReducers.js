@@ -5,6 +5,7 @@ import {
 	CLEAR_ERRORS,
 	DELETE_USER_FAIL,
 	DELETE_USER_REQUEST,
+	DELETE_USER_RESET,
 	DELETE_USER_SUCCESS,
 	FORGOT_PASSWORD_FAIL,
 	FORGOT_PASSWORD_REQUEST,
@@ -139,6 +140,12 @@ export const userReducer = (state = {}, action) => {
 			return {
 				...state,
 				isUpdated: false,
+			};
+
+		case DELETE_USER_RESET:
+			return {
+				...state,
+				isDeleted: false,
 			};
 
 		case UPDATE_PROFILE_FAIL:

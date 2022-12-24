@@ -28,11 +28,11 @@ const Dashboard = () => {
 					<section className="content-2">
 						<div className="bg-success col-3">
 							<p>
-								Product <br />{" "}
+								Products <br />{" "}
 								<span className="fw-bold">9</span>
 							</p>
 							<div>
-								<Link to="/dashboard">
+								<Link to="/admin/products">
 									View Details{" "}
 									<span>
 										<ChevronRightIcon className="icon-dashboard-xs" />
@@ -47,7 +47,7 @@ const Dashboard = () => {
 								<span className="fw-bold">9</span>
 							</p>
 							<div>
-								<Link to="/dashboard">
+								<Link to="/admin/orders">
 									View Details{" "}
 									<span>
 										<ChevronRightIcon className="icon-dashboard-xs" />
@@ -62,7 +62,7 @@ const Dashboard = () => {
 								<span className="fw-bold">9</span>
 							</p>
 							<div>
-								<Link to="/dashboard">
+								<Link to="/admin/users">
 									View Details{" "}
 									<span>
 										<ChevronRightIcon className="icon-dashboard-xs" />
