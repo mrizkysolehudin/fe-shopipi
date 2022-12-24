@@ -1,5 +1,5 @@
 import Login from "pages/Public/Login/Login";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import SNavbar from "../components/Navigation/Navbar/Navbar";
 import PublicRoute from "../components/Navigation/PublicRoute/PublicRoute";
@@ -25,15 +25,29 @@ import UpdateUser from "pages/Admin/Users/UpdateUser/UpdateUser";
 import store from "redux/store";
 import { loadUser } from "redux/actions/userActions";
 import { useSelector } from "react-redux";
+import axios from "axios";
+
+import { Elements } from "@stripe/react-stripe-js";
+import { loadStripe } from "@stripe/stripe-js";
 
 const AppRoutes = () => {
-	const { user, isAuthenticated, loading } = useSelector(
-		(state) => state.auth
-	);
+	const [stripeApiKey, setStripeApiKey] = useState("");
 
 	useEffect(() => {
 		store.dispatch(loadUser());
+
+		async function getStripeApiKey() {
+			const { data } = await axios.get("/api/v1/stripeapi");
+
+			setStripeApiKey(data.stripeApiKey);
+		}
+
+		getStripeApiKey();
 	}, []);
+
+	const { user, isAuthenticated, loading } = useSelector(
+		(state) => state.auth
+	);
 
 	return (
 		<Routes>
@@ -61,7 +75,19 @@ const AppRoutes = () => {
 				<Route path="/myprofile/update" element={<UpdateProfile />} />
 				<Route path="/shipping" element={<Shipping />} />
 				<Route path="/confirm" element={<ConfirmOrder />} />
-				<Route path="/payment" element={<Payment />} />
+
+				<Route
+					path="/payment"
+					element={
+						<>
+							{stripeApiKey && (
+								<Elements stripe={loadStripe(stripeApiKey)}>
+									<Payment />
+								</Elements>
+							)}
+						</>
+					}
+				/>
 				<Route path="/success" element={<OrderSuccess />} />
 			</Route>
 

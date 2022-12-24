@@ -1,6 +1,7 @@
 .page-payment {
   max-width: 28rem;
   margin: 90px auto 0;
+  padding-bottom: 60px;
 }
 
 .page-payment .form {
