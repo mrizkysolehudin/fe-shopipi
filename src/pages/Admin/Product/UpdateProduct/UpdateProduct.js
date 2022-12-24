@@ -246,7 +246,7 @@ const UpdateProduct = () => {
 							disabled={loading}
 							type="submit"
 							className="btn-orange btn-update">
-							Create
+							Update
 						</button>
 					</Form>
 				</main>

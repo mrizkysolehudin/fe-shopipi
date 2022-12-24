@@ -45,7 +45,7 @@ const SideBar = () => {
 				Orders
 			</Link>
 
-			<Link to="/dashboard" className="d-flex">
+			<Link to="/admin/users" className="d-flex">
 				<UserGroupIcon className="icon-dashboard" />
 				Users
 			</Link>

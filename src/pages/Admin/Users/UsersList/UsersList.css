@@ -1,0 +1,11 @@
+.page-users-list {
+  min-height: 100vh;
+}
+
+.page-users-list main {
+  padding-bottom: 40px;
+}
+
+.page-users-list .data-table {
+  min-width: 60rem;
+}
