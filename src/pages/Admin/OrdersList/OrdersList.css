@@ -1,0 +1,12 @@
+.page-orders-list {
+  min-height: 100vh;
+}
+
+.page-orders-list main {
+  border-bottom: 40px;
+  min-width: none;
+}
+
+.page-orders-list .data-table {
+  min-width: 63rem;
+}

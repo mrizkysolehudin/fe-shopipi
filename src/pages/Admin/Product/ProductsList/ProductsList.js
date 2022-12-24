@@ -114,21 +114,19 @@ const ProductsList = () => {
 			</div>
 
 			<main>
-				<div className="">
-					<h1 className="my-5">All Products</h1>
+				<h1 className="my-5">All Products</h1>
 
-					{loading ? (
-						<Loader />
-					) : (
-						<MDBDataTable
-							data={setProducts()}
-							className="px-3 gap-3 d-grid data-table"
-							bordered
-							striped
-							hover
-						/>
-					)}
-				</div>
+				{loading ? (
+					<Loader />
+				) : (
+					<MDBDataTable
+						data={setProducts()}
+						className="px-3 gap-3 d-grid data-table"
+						bordered
+						striped
+						hover
+					/>
+				)}
 			</main>
 		</div>
 	);

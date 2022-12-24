@@ -40,7 +40,7 @@ const SideBar = () => {
 				</NavDropdown>
 			</Link>
 
-			<Link to="/dashboard" className="d-flex">
+			<Link to="/admin/orders" className="d-flex">
 				<ClipboardListIcon className="icon-dashboard" />
 				Orders
 			</Link>
