@@ -29,6 +29,7 @@ import axios from "axios";
 
 import { Elements } from "@stripe/react-stripe-js";
 import { loadStripe } from "@stripe/stripe-js";
+import ProductsList from "pages/Admin/Product/ProductsList/ProductsList";
 
 const AppRoutes = () => {
 	const [stripeApiKey, setStripeApiKey] = useState("");
@@ -104,6 +105,7 @@ const AppRoutes = () => {
 				<Route path="/admin/product/:id" element={<UpdateProduct />} />
 				<Route path="/admin/reviews" element={<Reviews />} />
 				<Route path="/admin/user/:id" element={<UpdateUser />} />
+				<Route path="/admin/products" element={<ProductsList />} />
 			</Route>
 		</Routes>
 	);

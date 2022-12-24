@@ -1,0 +1,13 @@
+.page-products-list {
+  min-height: 100vh;
+}
+
+.page-products-list main {
+  margin: auto;
+  padding-bottom: 40px;
+
+}
+
+.page-products-list .data-table {
+  min-width: 63rem;
+}

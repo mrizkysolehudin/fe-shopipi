@@ -28,7 +28,7 @@ const SideBar = () => {
 					menuVariant="dark"
 					className="h5">
 					<div className="d-grid px-2">
-						<Link to="#action/3.1" className="text-dark">
+						<Link to="/admin/products" className="text-dark">
 							<FolderIcon className="icon-dashboard text-dark" />{" "}
 							All
 						</Link>
